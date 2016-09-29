@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab label="Law Bringer" idMso="TabAddIns">
+        <group id="LawBringerGroup1" label="Employee Data">
+          <button
+            id="employeeFileButton"
+            label="Get Employee Data from File"
+            screentip="Retrieves employee data from Vista log files"
+            onAction="GetEmployeeFileWindow"
+            supertip="Retrieves employee data from Vista log files"
+          />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
